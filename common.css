@@ -1,3 +1,40 @@
-.d{
-    color: #a1a1a1;
+.paper-bg{
+    background-image: url(/assets/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+.pic1,.pic2,.pic3,.pic4,.pic5{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    background-color: #30401982;
+}
+.pic1{
+    background-image: url(assets/pic1.png);
+}
+.pic2{
+    background-image: url(assets/pic2.png);
+}
+.pic3{
+    background-image: url(assets/pic3.png);
+}
+.pic4{
+    background-image: url(assets/pic4.png);
+}
+.pic5{
+    background-image: url(assets/pic5.png);
+}
+
+.animate-scroll {
+    animation: scroll 12s linear infinite;
+}
+@keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
